@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://moonlakeai.com/
+docs: https://moonlakeai.com/
+summary:
+  types:
+  - http
+  api_key_in: []
+  oauth2_flows: []
+  notes: >-
+    The MoonLake AI Generation API authenticates requests with a Bearer API key
+    passed in the Authorization header. Requests without a key return HTTP 401
+    with body {"error":"Missing API key"} (verified against
+    https://app.moonlakeai.com/api/jobs/). API keys are issued to enterprise
+    customers; there is no public self-serve sign-up (access is via "Book Demo").
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  bearerFormat: api_key
+  description: >-
+    API key supplied as an HTTP Bearer token, e.g.
+    Authorization: Bearer {api_key}. Documented in the code sample on the
+    Moonlake enterprise page and confirmed by the live 401 "Missing API key"
+    response.
+  sources:
+  - https://moonlakeai.com/
+  applies_to:
+  - POST https://app.moonlakeai.com/api/jobs/

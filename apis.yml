@@ -1,8 +1,15 @@
 aid: moonlake-ai
 name: MoonLake AI
-description: 'MoonLake AI is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Moonlake AI Inc. is a San Francisco based company building world models and
+  simulation infrastructure for embodied AI. Its platform turns an image, video,
+  or text description into physically accurate, simulation-ready 3D models of the
+  world — assets shipped with baked-in physics and articulation (joints, ranges,
+  drive limits) that export directly to USD, NVIDIA Isaac Sim, and MuJoCo. Teams
+  generate sim environments and digital twins in hours instead of weeks via a
+  hosted generation API. Moonlake is backed by Threshold (formerly DFJ), AIX
+  Ventures, and NVIDIA's venture arm, and was named to the CB Insights AI 100 in
+  2026.
 url: https://raw.githubusercontent.com/api-evangelist/moonlake-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +17,70 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://moonlakeai.com/brand/wordmark-dark.svg
 tags:
 - Company
-- Ai
-apis: []
-maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
-- FN: APIs.json
-  email: info@apis.io
+- Artificial Intelligence
+- World Models
+- Simulation
+- Embodied AI
+- Robotics
+- 3D Generation
+- Digital Twins
+- Synthetic Data
+apis:
+- name: MoonLake AI Generation API
+  description: >-
+    Hosted generation API that turns a prompt and optional reference images or
+    video into physically accurate, simulation-ready 3D assets (USD / Isaac Sim /
+    MuJoCo). Jobs are submitted to POST /api/jobs/ with a Bearer API key.
+  humanURL: https://moonlakeai.com/
+  baseURL: https://app.moonlakeai.com/api/
+  tags:
+  - 3D Generation
+  - Simulation
+  - World Models
+  properties:
+  - type: Authentication
+    url: authentication/moonlake-ai-authentication.yml
 common:
+- type: DomainSecurity
+  url: security/moonlake-ai-domain-security.yml
 - type: Website
   url: https://moonlakeai.com/
+- type: Blog
+  url: https://moonlakeai.com/articles
+- type: TermsOfService
+  url: https://moonlakeai.com/terms
+- type: PrivacyPolicy
+  url: https://moonlakeai.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/MoonlakeAI
+- type: Twitter
+  url: https://x.com/moonlake
+- type: LinkedIn
+  url: https://www.linkedin.com/company/moonlake-ai
+- type: Authentication
+  url: authentication/moonlake-ai-authentication.yml
+- type: LLMsTxt
+  url: llms/moonlake-ai-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

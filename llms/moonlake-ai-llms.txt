@@ -1,0 +1,31 @@
+# MoonLake AI
+
+> Moonlake AI Inc. builds world models and simulation infrastructure for embodied AI. Its hosted API turns an image, video, or text description into physically accurate, simulation-ready 3D models — assets shipped with baked-in physics and articulation (joints, ranges, drive limits) that export directly to USD, NVIDIA Isaac Sim, and MuJoCo. Teams generate simulation environments and digital twins in hours. Backed by Threshold (formerly DFJ), AIX Ventures, and NVIDIA's venture arm; named to the CB Insights AI 100 (2026). Headquartered in San Francisco, CA.
+
+## API
+
+- [Generation API](https://moonlakeai.com/): Submit a generation job to POST https://app.moonlakeai.com/api/jobs/ with an `Authorization: Bearer {api_key}` header. Input is a prompt plus optional reference images or video; output is a physically accurate, sim-ready 3D asset. Access is enterprise (Book Demo); there is no public self-serve sign-up.
+
+## Authentication
+
+- [Authentication profile](authentication/moonlake-ai-authentication.yml): HTTP Bearer API key in the Authorization header. Unauthenticated requests return HTTP 401 `{"error":"Missing API key"}`.
+
+## Docs
+
+- [Enterprise / product](https://moonlakeai.com/): Product overview, capabilities, and the API code sample.
+- [Articles](https://moonlakeai.com/articles): Company blog and research posts.
+- [Use Moonlake to Build Simulations and Digital Twins](https://moonlakeai.com/blog/simulations-and-digital-twins)
+- [Introducing Moonlake's 3D Agent: Computer Use for World Modeling](https://moonlakeai.com/blog/3d-agent)
+- [Efficient World Models](https://moonlakeai.com/blog/efficient-world-models)
+- [Terms of Service](https://moonlakeai.com/terms)
+- [Privacy Notice](https://moonlakeai.com/privacy)
+
+## Code
+
+- [GitHub organization (MoonlakeAI)](https://github.com/MoonlakeAI): Public repos include Nova3D (editable, part-aware 3D generation client), content-agents (VLM agents automating 3D content workflows for USD files), and libuipc (C++20 unified incremental potential contact physics library).
+
+## Company
+
+- [Careers](https://jobs.ashbyhq.com/Moonlake)
+- [LinkedIn](https://www.linkedin.com/company/moonlake-ai)
+- [X / Twitter](https://x.com/moonlake)
