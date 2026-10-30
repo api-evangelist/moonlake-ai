@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MoonLake AI is a company surfaced as a portfolio company of threshold-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Moonlake AI Inc. is a San Francisco based company building world models and simulation infrastructure for embodied AI. Its platform turns an image, video, or text description into physically accurate, simulation-ready 3D models of the world — assets shipped with baked-in physics and articulation (joints, ranges, drive limits) that export directly to USD, NVIDIA Isaac Sim, and MuJoCo. Teams generate sim environments and digital twins in hours instead of weeks via a hosted generation API. Moonlake is backed by Threshold (formerly DFJ), AIX Ventures, and NVIDIA's venture arm, and was named to the CB Insights AI 100 in 2026.
 
-Backed by: threshold-ventures — https://moonlakeai.com/
+**Areas:** Company · Artificial Intelligence · World Models · Simulation · Embodied AI · Robotics · 3D Generation · Digital Twin · Synthetic Data
+
+## MoonLake AI on APIs.io
+
+Everything profiled for MoonLake AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/moonlake-ai/](https://apis.io/providers/moonlake-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [MoonLake AI Generation API](https://apis.io/apis/moonlake-ai/moonlake-ai-generation-api/) — Hosted generation API that turns a prompt and optional reference images or video into physically accurate, simulation-ready 3D assets (USD / Isaac Sim /…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Moonlake Ai Authentication](https://apis.io/security/moonlake-ai/moonlake-ai-authentication/)
+- [Moonlake Ai Domain Security](https://apis.io/security/moonlake-ai/moonlake-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://moonlakeai.com/)
+- [Blog](https://moonlakeai.com/articles)
+- [Terms of service](https://moonlakeai.com/terms)
+- [Privacy policy](https://moonlakeai.com/privacy)
+- [GitHub](https://github.com/MoonlakeAI)
+
+## API Evangelist rating
+
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/moonlake-ai/](https://apis.io/providers/moonlake-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MoonLake AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/moonlake-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
